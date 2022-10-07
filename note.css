@@ -1,0 +1,45 @@
+.header1{
+    min-height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color:white;
+  }
+  .header2{
+    color: white;
+    border-bottom:2px solid grey;
+    font-size: 20px;
+    align-items: center;
+    padding-top:20px;
+    overflow:hidden;
+  }
+  
+  .write{
+    color: white;
+    font-size:40px;
+    text-align: center;
+    height:20px;
+  }
+  
+  div.scrollmenu {
+    background-color:white;
+    border-top:2px solid grey;
+    overflow: auto;
+    white-space: nowrap;
+    font-size: 30px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding-left:60px;
+    padding-right:60px;
+    text-decoration: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+  }
+  
+  div.scrollmenu a:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+    background-color:yellowgreen ;
+  }

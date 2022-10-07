@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    position: static;
+    background-color:rgba(0,0,0,0.7) ;
+}
+.one{
+    width:100%;
+    min-height:650px;
+    background-image: url("https://thumbs.dreamstime.com/b/high-peaks-chamonix-valley-mont-blanc-massif-village-chamonix-france-high-peaks-chamonix-127599716.jpg");
+    background-repeat: no-repeat;
+}
+.one1{
+    width:100%;
+    background-color: rgba(0,0,0,0.7);
+    min-height:650px;
+}
+img{
+    width:100%;
+    min-height:650px;
+}
+.one2{
+    background-color: rgb(0,0,0,0.7);
+    width:100%;
+    min-height:50px;
+    border: 2px solid grey;
+    position:fixed;
+}
+h1{
+    color: white;
+    /*padding-left:100px;*/
+    font-size:35px;
+    text-align: center;
+}
+.one4{
+    background-color: white;
+    width: 80%;
+    min-height:500px;
+    border-radius: 10px;
+    margin-top:60px;
+    margin-left:9%;
+    border:3px solid grey ;
+}
+.one4:hover{
+  background-color: purple;
+  border:3px solid red;
+}
+
+.l1{
+  text-align: center;
+  padding-top:45px;
+  color:black;
+  font-size:25px ;
+
+}
+
+.l1:hover{
+  color: white;
+}
+
+/* slider */
+
+.sidenav {
+    height:700px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:yellowgreen;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav:hover{
+    border:2px solid grey;
+  }
+  .sidenav a:hover {
+    color: blue;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .coder{
+    text-align: center;
+    color: white;
+    font-size:30px;
+    padding-left:35px;
+    align-items: center;
+  }
+
+/* syllabus */
+.two{
+    width:100%;
+    min-height:600px;
+    background-color: white;
+    width:80%;
+    margin-left:9%;
+    border-radius: 10px;
+}
+
+.two1{
+  padding-top:35px;
+}
+.l{
+  padding-left: 35px;
+}
+.l4{
+  padding-left: 35px;
+  font-size:20px;
+}
+
+h3{
+  padding-left:35px;
+  padding-bottom:20px;
+  padding-top: 15px;
+  font-size:30px;
+  text-decoration: underline;
+  color:purple;
+}
+
+/* below */
+
+.below{
+    background-color:black;
+    min-height:300px;
+    width:100%;
+  }
+  table{
+    padding-top:2px ;
+    width: 100%;
+  }
+  
+  td{
+    padding-top: 40px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  td:hover{
+    color:blue;
+  }

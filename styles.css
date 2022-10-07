@@ -1,0 +1,126 @@
+body{
+  margin: 0px;
+  position: static;
+}  
+
+/* header */
+.header{
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height:120vw;
+}
+.new{
+  text-align: justify;
+  font-size:18px;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top: 30px;
+}
+.new1{
+  text-align: justify;
+  overflow: hidden;
+  font-size:18px;
+}
+.topimage{
+  background-color:white;
+  width:100%;
+  background-image:white;
+  min-height:700px;
+  border-image-repeat: no-repeat;
+  background-image: url("https://wallpaperaccess.com/full/4773621.jpg");
+  }
+  .topimage1{
+    background-color: rgba(0,0,0,.7);
+    width:100%;
+    min-height:700px;
+  }
+
+  .topimage2{
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height:40px;
+    overflow:hidden;
+    border:2px solid grey ;
+    position:fixed;
+  }
+  .flower{
+    padding-left: 20px;
+    font-size:40px;
+    color: white;
+  }
+  .topimage3{
+    padding-top:40px;
+    padding-left:60px;
+  }
+  h1{
+    color:white;
+    font-size:40px;
+  }
+.topimage4{
+  margin-top:20px;
+  width:70%;
+  background-color: white;
+  border-radius: 10px;
+  min-height:400px;
+  margin-left:60px ;  
+}
+.topimage5{
+  padding-left:70px;
+  padding-top: 160px;
+  color: white;
+  font-size: 20px;
+}
+.topper{
+  background-color:white;
+  width:70%;
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-top:20px;
+}
+
+.topper1{
+  background-color:white;
+  width:70%;
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-top:40px;
+  min-height:300px
+}
+.topper2{
+  background-color:white;
+  width:70%;
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-top:40px;
+  min-height:200px
+}
+.coder{
+  text-align: center;
+  color: white;
+  font-size:30px;
+  padding-left:35px;
+  align-items: center;
+}
+/* below */
+
+.below{
+  background-color:black;
+  min-height:300px;
+  width:100%;
+  display: inline-block;
+}
+table{
+  padding-top:2px ;
+  width: 100%;
+}
+
+td{
+  padding-top: 40px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+td:hover{
+  color:blue;
+}
+
+

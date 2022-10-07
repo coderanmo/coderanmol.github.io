@@ -1,0 +1,165 @@
+body{
+  margin:0px;
+  position: relative;
+}
+.math{
+width:100%;
+}
+
+.topimage{
+  background-color:white;
+  width:100%;
+  background-image:white;
+  min-height:420px;
+  border-image-repeat: no-repeat;
+  background-image: url("https://wallpaperaccess.com/full/4773621.jpg");
+  }
+.topimage2{
+  background-color:rgba(0, 0, 0, 0.7);
+  width: 100%;
+  min-height:40px;
+  overflow:hidden;
+  border:2px solid grey ;
+  position:fixed;
+}
+.topimage3{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  min-height:420px;
+}
+.topimg1{
+  width:80%;
+  min-height:420px;
+  background-color: white;
+  margin-left:9%;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.topimg2{
+  width:80%;
+  min-height:400px;
+  background-color: white;
+  margin-left:9%;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.below1{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height:600px;
+}
+/* slider */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:greenyellow;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.accordion {
+  color:black;
+  cursor: pointer;
+  padding:18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size:20px;
+  transition: 0.4s;
+  box-shadow:0px 0px 4px rgba(0,0,0,.9);
+  width:95%;
+  margin-left:2.5%;
+
+}
+
+.active, .accordion:hover {
+  box-shadow:0px 0px 4px rgba(0,0,0,.9); 
+  border:2px solid red;
+}
+.header1{
+  padding-top: 10px;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+    
+button{
+  background-color:white;
+  padding:8px;
+  margin-top:20px;
+  border-radius: 15px;
+  width:110px;
+  color: white;
+}
+h2{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+.anmo{
+  height:100vw;
+}
+.coder{
+  text-align: center;
+  color: white;
+  font-size:30px;
+  padding-left:35px;
+  padding-top:10px ;
+}
+
+/* below */
+.below{
+  background-color:black;
+  min-height:300px;
+  width:100%;
+  display: inline-block;
+}
+table{
+  padding-top:2px ;
+  width: 100%;
+}
+
+td{
+  padding-top: 40px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+td:hover{
+  color:blue;
+}
+
